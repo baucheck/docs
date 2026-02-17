@@ -1,0 +1,43 @@
+---
+title: "KI-gestützter Checklisten-Import"
+description: "Prüfpunkte automatisch aus einem Leistungsverzeichnis extrahieren"
+icon: "wand-magic-sparkles"
+---
+
+Baucheck kann Checklisten aus einem Leistungsverzeichnis (LV) automatisch extrahieren. Diese Funktion nutzt künstliche Intelligenz, um aus einem PDF-Dokument relevante Prüfpunkte zu erkennen und Ihren Projektchecklisten hinzuzufügen.
+
+## Voraussetzungen
+
+- Ihr Team hat noch freie KI-Uploads im aktuellen Monat. Die Anzahl der verfügbaren Uploads richtet sich nach Ihrem Abonnement.
+- Das Dokument muss ein Leistungsverzeichnis im PDF-Format sein (maximal 10 MB).
+
+## Dokument hochladen
+
+<Steps>
+  <Step title="Import starten">
+    Öffnen Sie die Detailseite eines Projekts und klicken Sie auf **Leistungsverzeichnis importieren** (KI-Symbol).
+  </Step>
+  <Step title="PDF auswählen">
+    Wählen Sie Ihre PDF-Datei aus. Ein Fortschrittsbalken zeigt den Upload an.
+  </Step>
+</Steps>
+
+## Verarbeitung abwarten
+
+Nach dem Upload verarbeitet Baucheck das Dokument im Hintergrund. Die Statusseite zeigt den Fortschritt. Sie können die Seite verlassen und später zurückkehren --- Baucheck speichert den Verarbeitungsstatus.
+
+<Note>Falls das Dokument kein Leistungsverzeichnis ist, erhalten Sie eine Fehlermeldung.</Note>
+
+## Extrahierte Einträge prüfen
+
+Nach Abschluss der Verarbeitung öffnet sich der Prüfdialog:
+
+1. Baucheck zeigt die extrahierten Prüfpunkte, gruppiert nach erkanntem Gewerk.
+2. Jeder Eintrag zeigt den Prüftext, die zugeordnete Phase, die Priorität (Hoch, Mittel, Niedrig) und einen Konfidenzwert.
+3. Sie können jedem Eintrag eine Firma zuordnen, die im Projekt aktiv ist.
+4. Klicken Sie auf **Speichern**, um die Einträge als Projekt-Checklisten zu übernehmen.
+5. Alternativ klicken Sie auf **Ergebnisse verwerfen**, um die extrahierten Einträge zu löschen.
+
+## Verarbeitung abbrechen
+
+Während der Verarbeitung können Sie den Vorgang jederzeit über **Abbrechen** stoppen.
