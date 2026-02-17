@@ -1,0 +1,31 @@
+---
+title: "Rollen und Berechtigungen"
+description: "Besitzer, Mitglied und Gast --- wer darf was"
+icon: "shield-halved"
+---
+
+Baucheck verwendet drei Rollen, die bestimmen, was ein Teammitglied tun darf.
+
+## Rollenübersicht
+
+| Aktion | Besitzer | Mitglied | Gast |
+|--------|----------|----------|------|
+| Projekte ansehen | Ja | Ja | Ja |
+| Projekte anlegen | Ja | Nein | Nein |
+| Projekte löschen | Ja | Nein | Nein |
+| Tickets erstellen und bearbeiten | Ja | Ja | Nein |
+| Tickets freimelden (als Firma) | Ja | Ja | Eigene |
+| Berichte erstellen und bearbeiten | Ja | Ja | Nein |
+| Checklisten bewerten | Ja | Ja | Nein |
+| Firmen verwalten | Ja | Ja | Nein |
+| Team-Checklisten bearbeiten | Ja | Ja | Nein |
+| Teammitglieder verwalten | Ja | Nein | Nein |
+| Abrechnung verwalten | Ja | Nein | Nein |
+
+## Projektzugriff
+
+Unabhängig von der Rolle lässt sich für jedes Mitglied festlegen, ob es **alle Projekte** oder nur **bestimmte Projekte** sehen darf. Ein Mitglied mit der Rolle „Mitglied", das nur auf zwei Projekte Zugriff hat, kann in diesen Projekten Tickets und Berichte erstellen, sieht aber die anderen Projekte nicht.
+
+## Firmen als Benutzer
+
+Wenn die E-Mail-Adresse eines Teammitglieds mit der E-Mail-Adresse einer Firma übereinstimmt, erkennt Baucheck diese Verbindung automatisch. Ein solches Mitglied mit der Rolle „Gast" sieht dann nur die Tickets, die seiner Firma zugewiesen sind, und kann diese Tickets freimelden.

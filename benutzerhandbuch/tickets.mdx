@@ -1,0 +1,93 @@
+---
+title: "Tickets"
+description: "Mängel, Anweisungen und offene Leistungen erfassen und verfolgen"
+icon: "ticket"
+---
+
+Tickets sind das Herzstück von Baucheck. Ein Ticket dokumentiert einen Mangel, eine Anweisung, eine Abnahme oder eine offene Leistung auf der Baustelle.
+
+## Ticket-Typen
+
+| Typ | Beschreibung |
+|-----|-------------|
+| **Mangel** | Ein festgestellter Baumangel, der behoben werden muss |
+| **Anweisung** | Eine Arbeitsanweisung an eine Firma |
+| **Dokumentation** | Ein Sachverhalt, der dokumentiert werden soll |
+| **Abnahme** | Eine Abnahmefeststellung |
+| **Offene Leistungen** | Noch nicht erbrachte Leistungen |
+
+## Ticket-Status
+
+| Status | Bedeutung |
+|--------|-----------|
+| **Offen** | Das Ticket wurde erstellt und wartet auf Bearbeitung |
+| **Freigemeldet** | Die zuständige Firma meldet die Leistung als erledigt |
+| **Erledigt** | Die Bauleitung bestätigt die Erledigung |
+| **Abgelehnt** | Die Freimeldung wird zurückgewiesen |
+
+## Tickets eines Projekts anzeigen
+
+Öffnen Sie ein Projekt und klicken Sie auf die Ticket-Übersicht oder navigieren Sie über die Ticket-Anzahl zur vollständigen Liste.
+
+Die Ticketliste zeigt jedes Ticket als Karte mit Nummer, Typ, Status, zugewiesener Firma, Frist und --- falls vorhanden --- einem Vorschaubild.
+
+## Tickets filtern
+
+Oberhalb der Ticketliste finden Sie mehrere Filteroptionen:
+
+- **Firma** --- Nur Tickets einer bestimmten Firma anzeigen
+- **Gewerk** --- Nur Tickets eines bestimmten Gewerks anzeigen
+- **Status** --- Nach offen, erledigt, abgelehnt oder freigemeldet filtern
+- **Typ** --- Nach Mangel, Anweisung, Dokumentation, Abnahme oder Offene Leistungen filtern
+- **Frist** --- Nach Fälligkeitsdatum filtern
+- **Erstellungsdatum** --- Nach dem Zeitpunkt der Erstellung filtern
+
+## Neues Ticket erstellen
+
+<Steps>
+  <Step title="Formular öffnen">
+    Öffnen Sie die Ticketliste eines Projekts und klicken Sie auf **Neues Ticket**.
+  </Step>
+  <Step title="Ticket-Daten eingeben">
+    - **Typ** --- Wählen Sie den Ticket-Typ (Mangel, Anweisung usw.)
+    - **Status** --- Standardmäßig „Offen"
+    - **Firma** --- Wählen Sie die zuständige Firma aus der Liste der dem Projekt zugewiesenen Firmen
+    - **Frist** --- Wählen Sie ein Datum über den Kalender
+    - **Beschreibung** --- Beschreiben Sie den Sachverhalt
+    - **Position auf Grundriss** --- Optional: Klicken Sie auf einen Grundriss und setzen Sie einen Marker an die betreffende Stelle
+  </Step>
+  <Step title="Fotos hinzufügen">
+    Klicken Sie auf den Fotobereich und wählen Sie Bilder aus oder ziehen Sie sie per Drag-and-Drop hinein. Sie können mehrere Fotos gleichzeitig hochladen.
+  </Step>
+  <Step title="Ticket erstellen">
+    Klicken Sie auf **Ticket erstellen**. Baucheck vergibt automatisch eine fortlaufende Ticketnummer innerhalb des Projekts.
+  </Step>
+</Steps>
+
+## Ticket bearbeiten
+
+Klicken Sie auf ein Ticket in der Liste. Ändern Sie die gewünschten Felder und klicken Sie auf **Änderungen speichern**. Sie können auch Fotos hinzufügen oder vorhandene Fotos zur Löschung markieren.
+
+## Ticket freimelden
+
+Wenn eine Firma ihre Arbeit abgeschlossen hat, kann sie das Ticket freimelden:
+
+1. Öffnen Sie das Ticket.
+2. Klicken Sie auf **Ticket freimelden**.
+3. Das Ticket erhält den Status **Freigemeldet** mit Zeitstempel und Name des Freimelders.
+
+Die Bauleitung kann das Ticket anschließend auf **Erledigt** setzen oder bei unzureichender Ausführung auf **Abgelehnt**.
+
+## Ticket als PDF exportieren
+
+Öffnen Sie ein Ticket und klicken Sie auf **PDF exportieren**. Baucheck erstellt ein PDF-Dokument mit allen Ticketdaten, Fotos und --- falls vorhanden --- der Grundrissmarkierung.
+
+## Mehrere Tickets exportieren
+
+1. Aktivieren Sie in der Ticketliste die Checkboxen neben den gewünschten Tickets.
+2. Klicken Sie auf **Exportieren**.
+3. Baucheck erzeugt eine ZIP-Datei mit einem PDF pro Ticket (maximal 10 Tickets pro Export).
+
+## Ticket löschen
+
+Klicken Sie auf das Löschsymbol neben einem Ticket und bestätigen Sie die Aktion.
