@@ -3,11 +3,11 @@
   "theme": "mint",
   "name": "Baucheck",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1D4ED8"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -60,27 +60,27 @@
       "anchors": [
         {
           "anchor": "Support",
-          "href": "mailto:support@baucheck.app",
+          "href": "/support",
           "icon": "envelope"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@baucheck.app"
+        "href": "/support"
       }
     ],
     "primary": {
       "type": "button",
       "label": "App öffnen",
-      "href": "https://app.baucheck.app"
+      "href": "https://dashboard.baucheck.app"
     }
   },
   "footer": {

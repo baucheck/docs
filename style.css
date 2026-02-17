@@ -1,0 +1,4 @@
+/* Increase navbar logo size (default h-7 = 28px → 70px = 2.5x) */
+img.nav-logo {
+  height: 70px !important;
+}
